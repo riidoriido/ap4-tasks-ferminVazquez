@@ -1,0 +1,19 @@
+* {
+  padding: 0%;
+  display: block;
+  margin: 0%;
+  font-family: "Comic Sans", cursive;
+}
+h1 {
+  background-size: cover;
+  background-image: url(./assets/headerimg1.jpg);
+  height: 10rem;
+  color: white;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 1rem;
+}
