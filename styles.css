@@ -16,6 +16,10 @@ body {
   height: 250px;
 }
 
+h1 {
+  padding: 20px;
+}
+
 div.subtitle {
   position: relative;
   color: white;
@@ -27,19 +31,24 @@ div.subtitle {
 div.subtitle > figure > img {
   position: absolute;
   right: 8%;
-  top: -25px;
+  top: -45px;
 }
 
 aside {
   display: inline-block;
+  vertical-align: top;
   width: 150px;
-  margin-left: 5px;
+}
+nav {
+  padding: 3rem;
+  padding-left: 2rem;
+  padding-right: 0;
 }
 
 nav > a {
   display: block;
   padding: 2%;
-  line-height: 2rem;
+  line-height: 3rem;
 }
 a.active {
   text-decoration: none;
