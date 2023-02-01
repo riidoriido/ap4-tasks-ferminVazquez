@@ -6,6 +6,7 @@
 
 body {
   font-family: "Comic Sans", cursive;
+  font-size: 14pt;
 }
 
 .banner {
@@ -34,7 +35,7 @@ div.subtitle > figure > img {
   top: -45px;
 }
 
-aside {
+div.sidebar {
   display: inline-block;
   vertical-align: top;
   width: 150px;
@@ -57,10 +58,11 @@ a.active {
 
 main {
   display: inline-block;
-  padding: 1%;
+  padding: 3%;
+  padding-left: 150px;
   width: 85%;
 }
-article {
+/* article {
   padding: 1rem;
 }
 
@@ -69,4 +71,24 @@ article > h3 {
 }
 article > p {
   text-indent: 1rem;
+} */
+section {
+  display: inline-block;
+}
+
+main > section > dl {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  display: block;
+  margin-inline-start: 40px;
+  margin-bottom: 25px;
 }
