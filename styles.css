@@ -92,6 +92,7 @@ dd {
   margin-inline-start: 40px;
   margin-bottom: 25px;
 }
+/* games */
 
 #tablecontainer,
 #infocontainer {
@@ -148,4 +149,41 @@ div.textctn1 {
 .inlinetxt {
   display: flex;
   justify-content: space-between;
+}
+
+/* rules */
+
+p.disclaimer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: small;
+}
+
+#rulescontainer {
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem;
+  font-size: 12pt;
+}
+
+article.rule > h3 {
+  font-style: normal;
+}
+
+article.rule > p {
+  text-indent: 2rem;
+}
+
+article.rule > ol {
+  padding-left: 2rem;
+}
+
+article.rule > ul {
+  padding-left: 4rem;
+  list-style-type: circle;
+}
+ol li::marker {
+  font-weight: bold;
 }
